@@ -16,5 +16,6 @@ public static void main(String[] args) {
 	driver.findElement(By.id("alertbtn")).click();
 	System.out.println(driver.switchTo().alert().getText());
 	driver.switchTo().alert().accept();
+	System.out.println("Alert Accepted");
 }
 }
